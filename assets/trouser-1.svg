@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#cfc6c4" />
+      <stop offset="1" stop-color="#9d988f" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#0f1720" />
+  <g transform="translate(260,220)">
+    <rect x="220" y="220" width="1200" height="1400" rx="60" fill="url(#g2)" opacity="0.95" />
+    <text x="320" y="120" fill="#111" font-size="72" font-family="Georgia, serif">The Royale Trouser</text>
+    <text x="320" y="180" fill="#111" font-size="32" font-family="Georgia, serif">Wool blend · Slim</text>
+  </g>
+</svg>

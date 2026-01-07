@@ -1,0 +1,47 @@
+:root{
+  --brand-900:#0f1720;
+  --brand-700:#2b2b2f;
+  --accent:#bfa98f;
+}
+
+body{
+  margin:0;
+  background:var(--brand-900);
+  color:#f5f5f7;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.container{ max-width:1200px; margin:0 auto; padding:2rem }
+
+.glass { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.04); backdrop-filter: blur(6px); }
+
+.text-accent { color: var(--accent); }
+
+.bg-amber-400 { background: #f6c85f; }
+
+/* UI polish */
+.hero {
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+}
+
+.product-grid { display:grid; grid-template-columns: repeat(1,1fr); gap:1.25rem }
+@media(min-width:768px){ .product-grid{ grid-template-columns: repeat(3,1fr) } }
+
+.card { border-radius:10px; overflow:hidden; transition: transform .22s ease, box-shadow .22s ease; }
+.card:hover{ transform: translateY(-6px); box-shadow: 0 10px 30px rgba(0,0,0,0.6) }
+
+.btn { display:inline-block; padding:.5rem 1rem; border-radius:8px; transition: transform .12s ease; }
+.btn:hover{ transform: translateY(-2px) }
+
+.header-brand { font-family: 'Georgia', serif; font-size:20px; letter-spacing:0.4px }
+
+.hero-title{ font-family: 'Georgia', serif; font-size:44px; margin:0 }
+.hero-sub{ color: #cfc4b3 }
+
+.overlay-tour{ position:fixed; inset:0; background:rgba(0,0,0,0.7); display:flex; align-items:center; justify-content:center; z-index:60 }
+.tour-card{ background:linear-gradient(#0f1720,#0b1115); padding:2rem; border-radius:12px; width:min(820px,94%); color:#fff }
+.tour-controls{ display:flex; gap:8px; justify-content:flex-end; margin-top:1rem }
+
+

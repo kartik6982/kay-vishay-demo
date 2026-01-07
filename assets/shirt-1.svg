@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#d3c6b0" />
+      <stop offset="1" stop-color="#bfa98f" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#0f1720" />
+  <g transform="translate(300,200)">
+    <rect x="200" y="200" width="1200" height="1400" rx="60" fill="url(#g)" opacity="0.95" />
+    <text x="300" y="120" fill="#111" font-size="72" font-family="Georgia, serif">The Savile Shirt</text>
+    <text x="300" y="180" fill="#111" font-size="32" font-family="Georgia, serif">Egyptian cotton · Tailored</text>
+  </g>
+</svg>
